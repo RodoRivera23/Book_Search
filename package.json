@@ -9,11 +9,8 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RodoRivera23/Book_Search/issues"
-  },
-  "homepage": "https://github.com/RodoRivera23/Book_Search#readme"
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
 }
